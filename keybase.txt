@@ -1,0 +1,67 @@
+==================================================================
+https://keybase.io/andylolz
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://treadsoft.ly
+  * I am andylolz (https://keybase.io/andylolz) on keybase.
+  * I have a public key with fingerprint 8B21 BF74 E3E1 21AB 4D5D  A33B 43A3 BB6E 4CB8 8509
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "8b21bf74e3e121ab4d5da33b43a3bb6e4cb88509",
+            "host": "keybase.io",
+            "key_id": "43a3bb6e4cb88509",
+            "kid": "010190509a347821efea34c479af71e4e33de10b3b31b5b1946331dd175a633a913e0a",
+            "uid": "c7187880bf9d991e4a85fa44d1daa600",
+            "username": "andylolz"
+        },
+        "service": {
+            "hostname": "treadsoft.ly",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1428593638,
+    "expire_in": 157680000,
+    "prev": "72210fb6e9fa906e1ae148b6ea2c79a793c647ad9ad5bb06ebbe1ad0b7864898",
+    "seqno": 2,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.8
+Comment: https://keybase.io/crypto
+
+yMIcAnicbZJrSFRBFMd3e7Ir0lPIHlQ3EIo179y5j7lbmL2gB70srTDdZnbm6kW9
+d929bj4QiYpeUploL/uSRUWYpEVEBWkJgQUhSA8Sy0CzKKiQFL80V+pb82XmnPn9
+/2fOYZ4lTvT4vT3OiVH9y8Eub1d7RqknK+XSQKVAbFouBCuFQja+GaaVz6KRqGk5
+QlBARALE0GQGGZAAJjJVKIaQyBBDQlQmhwlCiqgLAaHAjrkKbkNwjC03bZ7jQcik
+PPsfvnD8QgQi0EWewVDWkASYwfgpLGs6NjTAeGFIGRAJJBAQhQBdViEElAJNwfyE
+dQCZiLld6bhdWANIQ0gkhk51nesxUgwsyxRQjFVRdMEYi1q4mHEaW7S8yC6qEKoC
+As/GzTBzR+B28pdwogzTmG04y4vKuTYStR07bBfxmwLHiQRdoVMecckDjIT+eoSI
+aVE+Ri6Is2jMtC0hCDgZdkzXFMgSUnSoQhQQWFnEjLKQ6RKKpiKRL7cMi3NLTZKA
+aPCp6QbWRZUBzICMeIylMJ+PpsOwKmuY6pgqhHCAEM5QkWhIlZGOBLerEssWghJ/
+Js7nljEz38JOaZQJVR1P9k3yeP2eKZMnuB/B4/dN//c9mq2po96s4o+tP8RQfV1G
+d0H9zV51g+R7lXI9sy65fW/Jt9pDPcvaWrrqsxf2dz9s/HT85S9vb/qitfcPqyMt
+sxrbqmtr667sSN3Q2HD0BVqRtH9rDbs2bcvufcMbR57PeH/7640P8M2ORUJ6jhO6
+O/Z4afI6q+aesgrHdyegXfg1PCw/eps3WuPZHGiePzi7Yufw9xsre4/8TJNnnjdT
+O32X1zf9nrt4zsaTRvzm6oa8ZQuG2rafm9q093TzwK3hTf2ZF5sTg4mB1uKOC5nz
+7m/zt56liUPV2LxctvPpnpzcrOySNcd8fUlX0/JPDZxZ8iD3TlNte+egkeD/3OdU
+a2PvUu9MPJPX8ge47Sh8
+=FQM/
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/andylolz
+
+==================================================================
