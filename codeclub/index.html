@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html class="uk"  lang="en-GB">
 <head>
@@ -7,7 +6,7 @@
 
     <meta name="google-site-verification" content="nWes9BQTXEGtw07ONgav0RiqPqz2HBttJnPF1aW7xCI" />
 
-    <title>Make the news — Code Club UK Projects</title>
+    <title>Happy Birthday — Code Club UK Projects</title>
     <link rel="shortcut icon" href="http://projects.codeclub.org.uk/img/ccuk_favicon.ico">
 
     <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -18,74 +17,94 @@
   <body class="index-template uk">
     <header class="header" role="banner">
       <a class="home-link" href="http://projects.codeclub.org.uk/index.html"><img alt="" class="logo" height="100" src="http://projects.codeclub.org.uk/img/ccuk_logo.png"></a>
-      <h1 class="title">Make the news</h1>
-      <span class="level-indicator">Scratch 2</span>
+      <h1 class="title">Happy Birthday</h1>
+      <span class="level-indicator">HTML &amp; CSS 1</span>
     </header>
-
-    <nav class="breadcrumbs"><ul class="breadcrumbs-list"><li class="breadcrumbs-item"><a class="breadcrumbs-link" href="http://projects.codeclub.org.uk/index.html">Languages</a></li><li class="breadcrumbs-item"><a class="breadcrumbs-link" href="../../index.html">English</a></li><li class="breadcrumbs-item"><a class="breadcrumbs-link" href="../index.html">Scratch 2</a></li><li class="breadcrumbs-item current">Make the news</li></ul></nav>
-
-          <section class="note registration-note">
-        <p>All Code Clubs <u>must be registered</u>. Registered clubs appear on the map at <a href="https://www.codeclub.org.uk/#map">codeclub.org.uk</a> - if your club is not on the map then visit <a href="http://jumpto.cc/18CpLPy">jumpto.cc/18CpLPy</a> to find out what to do.</p>
-      </section>
-
+    
     <main class="main lesson-steps" role="main">
-
+      
 <section id="introduction" class="level1 intro">
 <h1>Introduction</h1>
-<p>Today, let’s have a go publishing our own news stories on the web!</p>
+<p>In this project, you’ll be introduced to HTML &amp; CSS by learning how to make your own customised birthday card.</p>
+<p><img src="http://projects.codeclub.org.uk/en-GB/05_html_01/01/birthday-final.png" alt="screenshot" /></p>
 </section>
-<section id="step-1-how-do-websites-work" class="level1 activity">
-<h1>Step 1: How do websites work?</h1>
+<section id="step-1-what-is-html" class="level1 activity">
+<h1>Step 1: What is HTML?</h1>
+<p>HTML stands for <strong>HyperText Markup Language</strong>, and is the language used to make webpages. Let’s have a look at an example!</p>
 <section id="activity-checklist" class="level2 check">
 <h2>Activity Checklist</h2>
+<p>Today, we’ll be using JS Bin. <a target="_blank" href="http://web.treadsoft.ly/yaf/edit?html,output">Click here to open it</a>.</p>
+
 <ul>
-<li><p>On this page, try clicking View -&gt; Developer -&gt; View Source. Can you find the word "Hamburger" in there?</p><p>This language is called “HTML”. That’s the language Chrome (and other web browsers) understand.</p></li>
-<li></li>
-<li>Try doing the same thing on <a href="http://www.bbc.co.uk/newsround" target="_blank">the newsround website</a>. The HTML there is a lot more complicated!</li>
+<li>
+<p>HTML uses <strong>tags</strong> to build webpages. Can you see this HTML at line 4 of your code?</p>
+<pre><code>&lt;p&gt;Hello! My name is Andy.&lt;/p&gt;</code></pre>
+<p><code>&lt;p&gt;</code> is an example of a tag, and is short for <strong>paragraph</strong>. You can start a paragraph with <code>&lt;p&gt;</code> and end a paragraph with <code>&lt;/p&gt;</code>.</p></li>
+<li><p>Can you spot any other tags? One other tag you might have spotted on line 6 is <code>&lt;b&gt;</code>, which stands for <strong>bold</strong>:</p>
+<pre><code>&lt;b&gt;running&lt;/b&gt;</code></pre>
+<li><p>Try changing the code so it’s about you instead of Andy. Write about 2 things you like, and try using the <code>&lt;b&gt;</code> and <code>&lt;i&gt;</code> tags. You should see your webpage updating on the right.</p></li>
 </ul>
 </section>
 </section>
-<section id="step-2-put-on-your-x-ray-goggles" class="level1 activity">
-<h1>Step 2: Put on your X-Ray Goggles!</h1>
-<p>Because HTML is just some text, we can change it and save it.</p>
+<section id="step-2-what-is-css" class="level1 activity">
+<h1>Step 2: What is CSS?</h1>
+<p>CSS stands for <strong>Cascading Style Sheets</strong>, and is the language used to style webpages and make them look nice.</p>
 <section id="activity-checklist-1" class="level2 check">
 <h2>Activity Checklist</h2>
 <ul>
-<li>Open <a href="https://webmaker.org/en-US/goggles" target="_blank">X-Ray Goggles</a> and follow the instructions on the page. Can you change the background?</li>
-<li>Try changing some text on the page, too.</li>
+<li><p>Click the CSS button to view the CSS for our webpage. Can you find this code?</p>
+<pre><code>p {
+    color: black;
+}</code></pre>
+<p>This CSS code has one property for paragraphs, which is that the text colour should be black.</p></li>
+<li><p>Change the word ‘black’ in the CSS to ‘blue’. You should see the text colour of all paragraphs change to blue.</p></li>
 </ul>
+<p><img src="http://projects.codeclub.org.uk/en-GB/05_html_01/01/birthday-edit-css.png" alt="screenshot" /></p>
+</section>
+<section id="challenge-add-more-style" class="level2 challenge">
+<h2>Challenge: Add more style</h2>
+<p>Can you make the paragraphs of text orange? Or the background grey?</p>
+<p><img src="http://projects.codeclub.org.uk/en-GB/05_html_01/01/birthday-more-style.png" alt="screenshot" /></p>
 </section>
 </section>
-<section id="step-3-get-set-up" class="level1 activity">
-<h1>Step 3: Get set up…</h1>
+<section id="step-3-making-a-birthday-card" class="level1 activity">
+<h1>Step 3: Making a birthday card</h1>
+<p>Let’s use what you’ve learnt about HTML and CSS to make your own custom birthday card.</p>
 <section id="activity-checklist-2" class="level2 check">
 <h2>Activity Checklist</h2>
 <ul>
-<li>Log in by clicking “Sign In”, then “log in with Persona”, then enter: <script type="text/javascript">
-<!--
-h='&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;';a='&#64;';n='&#x6d;&#x6f;&#114;&#x65;&#108;&#x61;&#110;&#100;&#x73;&#x63;&#104;&#x6f;&#x6f;&#108;';e=n+a+h;
-document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+e+'<\/'+'a'+'>');
-// -->
-</script><noscript>&#x6d;&#x6f;&#114;&#x65;&#108;&#x61;&#110;&#100;&#x73;&#x63;&#104;&#x6f;&#x6f;&#108;&#32;&#x61;&#116;&#32;&#x67;&#x6d;&#x61;&#x69;&#108;&#32;&#100;&#x6f;&#116;&#32;&#x63;&#x6f;&#x6d;</noscript> (the password is the usual one!)</li>
-<li><p>Then add X-Ray Goggles to Chrome by dragging this to the bookmark bar:</p>
-<a href="javascript:(function()%7Bvar script%3Ddocument.createElement(%27script%27)%3Bscript.src%3D%27https://goggles.webmaker.org/en-US/webxray.js%27%3Bscript.className%3D%27webxray%27%3Bscript.setAttribute(%27data-lang%27,%27en-US%27)%3Bscript.setAttribute(%27data-baseuri%27,%27https://goggles.webmaker.org/en-US%27)%3Bdocument.body.appendChild(script)%3B%7D)()%3B">X-Ray Goggles</a>
-</li>
+<li><a href="http://web.treadsoft.ly/nux/edit?html,output" target="_blank">Click here to open a starter webpage.</a></li>
 </ul>
-</section>
-</section>
-<section id="step-4-time-to-make-some-news" class="level1 activity">
-<h1>Step 4: Time to make some news!</h1>
-<section id="activity-checklist-3" class="level2 check">
-<h2>Activity Checklist</h2>
+<p>Don’t worry if you don’t understand all of the code. This birthday card looks pretty boring, so you’re going to make some changes to this HTML and CSS.</p>
 <ul>
-<li>Last month, David Cameron won the general election. <a href="http://www.bbc.co.uk/newsround/32646663" target="_blank">Here’s a news story about it.</a></li>
-<li>Can you use X-Ray goggles to change this news story, so it’s about your school elections? Or make the story about something else?</li>
-<li><a href="http://www.bbc.co.uk/newsround/32646663" target="_blank">Go to the page</a>, click the bookmarklet, and then change the news!</li>
-<li>When you are done, click Publish to save your new version.</li>
+<li><p>Hover over the webpage (on the right side), and you should see the card open to reveal the inside.</p>
+<p><img src="http://projects.codeclub.org.uk/en-GB/05_html_01/01/birthday-hover.png" alt="screenshot" /></p></li>
+<li><p>Just like in the earlier example, you can edit any of the text in the HTML to customise the card.</p>
+<p><img src="http://projects.codeclub.org.uk/en-GB/05_html_01/01/birthday-card-html.png" alt="screenshot" /></p></li>
+<li><p>Can you find the HTML for the robot image? Try changing the word <code>robot</code> to <code>sun</code>, and you’ll see the image change!</p>
+<p><img src="http://projects.codeclub.org.uk/en-GB/05_html_01/01/birthday-card-sun.png" alt="screenshot" /></p>
+<p>You can use any of the words <code>boy</code>, <code>diamond</code>, <code>dinosaur</code>, <code>flowers</code>, <code>girl</code>, <code>rainbow</code>, <code>robot</code>, <code>spaceship</code>, <code>sun</code>, <code>tea</code>, or <code>trophy</code>.</p></li>
+<li><p>You can also edit the CSS of the birthday card. For example, go to line 4 of the code and you’ll see all of the CSS for the <code>outside</code> of the card. Change the <code>background</code> to <code>lightgreen</code>.</p>
+<p><img src="http://projects.codeclub.org.uk/en-GB/05_html_01/01/birthday-card-outside.png" alt="screenshot" /></p></li>
+<li><p>You can also change the size of an image. Go to line 29 of the code, and change the <code>width</code> and <code>height</code> of the outside image to <code>200px</code> (<code>px</code> stands for pixels).</p>
+<p><img src="http://projects.codeclub.org.uk/en-GB/05_html_01/01/birthday-card-size.png" alt="screenshot" /></p></li>
+<li><p>The font can be changed too. Go to line 24 and change the <code>font-family</code> to <code>Comic Sans MS</code> and the <code>font-size</code> to <code>16pt</code>.</p>
+<p><img src="http://projects.codeclub.org.uk/en-GB/05_html_01/01/birthday-card-font.png" alt="screenshot" /></p>
+<p>You can use other fonts like <span style="font-family: Arial;">arial</span>, <span style="font-family: impact;">Impact</span> and <span style="font-family: tahoma;">Tahoma</span>.</p></li>
 </ul>
 </section>
-<section id="publish-your-project" class="level2 save">
-<h2>Publish your project</h2>
+<section id="save-your-project-4" class="level2 save">
+<h2>Save Your Project</h2>
+</section>
+<section id="challenge-create-a-personalised-card" class="level2 challenge">
+<h2>Challenge: Create a personalised card</h2>
+<p>Use everything you’ve learnt about HTML and CSS to finish making a personalised card. It doesn’t even have to be a birthday card, it could be for any occasion!</p>
+<p>Here’s an example:</p>
+<p><img src="http://projects.codeclub.org.uk/en-GB/05_html_01/01/birthday-final.png" alt="screenshot" /></p>
+</section>
+<section id="save-your-project-5" class="level2 save">
+<h2>Save Your Project</h2>
+<p>Now that you’ve finished your card, you can share or email it to someone.</p>
 </section>
 </section>
     </main>
