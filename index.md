@@ -1,16 +1,6 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>treadsoft.ly</title>
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <style>
-    #andy_pic { float: right; }
-    </style>
-  </head>
-  <body>
-    <xmp theme="cerulean" style="display:none;">
-
+---
+layout: homepage
+---
 <img src="http://www.gravatar.com/avatar/bbb9eb1af3b427f8259df33f6e8844aa.png?s=200" alt="Andy" id="andy_pic" />
 
 # Andy Lulham
@@ -56,9 +46,3 @@ Freelance software developer. Recovering computational neuroscience researcher.
  * I’ve been attending the London [Sunday Assembly](http://sundayassembly.com/) since it started. I’ve recently joined their craft club.
  * I support [Bristol City FC](http://www.bcfc.co.uk/). _[Insert football chant here]_.
  * I studied Engineering at the [University of Bristol](http://www.bristol.ac.uk/) and Computer Science at [ČVUT](https://www.cvut.cz/), Prague.
-
-    </xmp>
-
-    <script src="strapdown.js"></script>
-  </body>
-</html>
