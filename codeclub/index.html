@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html class="uk"  lang="en-GB">
 <head>
@@ -6,7 +7,7 @@
 
     <meta name="google-site-verification" content="nWes9BQTXEGtw07ONgav0RiqPqz2HBttJnPF1aW7xCI" />
 
-    <title>Happy Birthday — Code Club UK Projects</title>
+    <title>Tell a Story — Code Club UK Projects</title>
     <link rel="shortcut icon" href="http://projects.codeclub.org.uk/img/ccuk_favicon.ico">
 
     <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -17,94 +18,107 @@
   <body class="index-template uk">
     <header class="header" role="banner">
       <a class="home-link" href="http://projects.codeclub.org.uk/index.html"><img alt="" class="logo" height="100" src="http://projects.codeclub.org.uk/img/ccuk_logo.png"></a>
-      <h1 class="title">Happy Birthday</h1>
+      <h1 class="title">Tell a Story</h1>
       <span class="level-indicator">HTML &amp; CSS 1</span>
     </header>
-    
+
     <main class="main lesson-steps" role="main">
-      
+
+<section id="last-time" class="level1 intro">
+<h1>Last time...</h1>
+<p>Remember the cards we made last week? <a href="http://web.treadsoft.ly/kuv">Check them out in the gallery!</a></p>
+</section>
+
 <section id="introduction" class="level1 intro">
 <h1>Introduction</h1>
-<p>In this project, you’ll be introduced to HTML &amp; CSS by learning how to make your own customised birthday card.</p>
-<p><img src="http://projects.codeclub.org.uk/en-GB/05_html_01/01/birthday-final.png" alt="screenshot" /></p>
+<p>In this project, you’ll learn how to create your own webpage to tell a story, joke or poem.</p>
+<p><img src="http://projects.codeclub.org.uk/en-GB/05_html_01/02/story-final.png" alt="screenshot" /></p>
 </section>
-<section id="step-1-what-is-html" class="level1 activity">
-<h1>Step 1: What is HTML?</h1>
-<p>HTML stands for <strong>HyperText Markup Language</strong>, and is the language used to make webpages. Let’s have a look at an example!</p>
+<section id="step-1-decide-on-a-story" class="level1 activity">
+<h1>Step 1: Decide on a story</h1>
+<p>Before you get coding, you’ll need to decide on a story to tell.</p>
 <section id="activity-checklist" class="level2 check">
 <h2>Activity Checklist</h2>
-<p>Today, we’ll be using JS Bin. <a target="_blank" href="http://web.treadsoft.ly/yaf/edit?html,output">Click here to open it</a>.</p>
-
 <ul>
-<li>
-<p>HTML uses <strong>tags</strong> to build webpages. Can you see this HTML at line 4 of your code?</p>
-<pre><code>&lt;p&gt;Hello! My name is Andy.&lt;/p&gt;</code></pre>
-<p><code>&lt;p&gt;</code> is an example of a tag, and is short for <strong>paragraph</strong>. You can start a paragraph with <code>&lt;p&gt;</code> and end a paragraph with <code>&lt;/p&gt;</code>.</p></li>
-<li><p>Can you spot any other tags? One other tag you might have spotted on line 6 is <code>&lt;b&gt;</code>, which stands for <strong>bold</strong>:</p>
-<pre><code>&lt;b&gt;running&lt;/b&gt;</code></pre>
-<li><p>Try changing the code so it’s about you instead of Andy. Write about 2 things you like, and try using the <code>&lt;b&gt;</code> and <code>&lt;i&gt;</code> tags. You should see your webpage updating on the right.</p></li>
+<li><p>Think about the story you want to tell. It could be:</p>
+<ul>
+<li>A famous story;</li>
+<li>A story you have made up;</li>
+<li>Something that has happened to you or someone you know.</li>
+</ul>
+<p>It doesn’t even have to be a story. It could be a joke, a poem, or anything else you want!</p></li>
 </ul>
 </section>
 </section>
-<section id="step-2-what-is-css" class="level1 activity">
-<h1>Step 2: What is CSS?</h1>
-<p>CSS stands for <strong>Cascading Style Sheets</strong>, and is the language used to style webpages and make them look nice.</p>
+<section id="step-2-editing-your-story" class="level1 activity">
+<h1>Step 2: Editing your story</h1>
+<p>Let’s start by editing the HTML content and CSS style of the story webpage.</p>
 <section id="activity-checklist-1" class="level2 check">
 <h2>Activity Checklist</h2>
 <ul>
-<li><p>Click the CSS button to view the CSS for our webpage. Can you find this code?</p>
-<pre><code>p {
-    color: black;
-}</code></pre>
-<p>This CSS code has one property for paragraphs, which is that the text colour should be black.</p></li>
-<li><p>Change the word ‘black’ in the CSS to ‘blue’. You should see the text colour of all paragraphs change to blue.</p></li>
+<li>Open this trinket: <a href="https://trinket.io/html/7bfa446bba" target="_blank">https://trinket.io/html/7bfa446bba</a>. <strong>Remember to log in!</strong></li>
+
+<li><p>You might remember from the ‘Happy Birthday’ project that webpage content goes in the <code>&lt;body&gt;</code> of the HTML document.</p>
+<p>Go to line 7 of the code, and you should see the webpage content, which is inside <code>&lt;body&gt;</code> and <code>&lt;/body&gt;</code> tags.</p>
+<p><img src="story-html.png" alt="screenshot" /></p></li>
+<li><p>Can you tell which tags are used to create the different parts of the webpage?</p>
+<p><img src="story-elements.png" alt="screenshot" /></p>
+<ul>
+<li><code>&lt;h1&gt;</code> is a <strong>heading</strong>. You can use the numbers 1 to 6 to create headings of different sizes;</li>
+<li><code>&lt;div&gt;</code> is short for <strong>division</strong>, and is a way of grouping stuff together. In this webpage, you’ll use it to group together all the stuff for each part of your story;</li>
+<li><code>&lt;img&gt;</code> is an <strong>image</strong>;</li>
+<li><code>&lt;p&gt;</code> is a <strong>paragraph</strong> of text.</li>
+</ul></li>
 </ul>
-<p><img src="http://projects.codeclub.org.uk/en-GB/05_html_01/01/birthday-edit-css.png" alt="screenshot" /></p>
 </section>
-<section id="challenge-add-more-style" class="level2 challenge">
-<h2>Challenge: Add more style</h2>
-<p>Can you make the paragraphs of text orange? Or the background grey?</p>
-<p><img src="http://projects.codeclub.org.uk/en-GB/05_html_01/01/birthday-more-style.png" alt="screenshot" /></p>
+<section id="challenge-make-some-changes" class="level2 challenge">
+<h2>Challenge: Make some changes</h2>
+<p>Edit the HTML and the CSS code to customise your webpage.</p>
+<p><img src="http://projects.codeclub.org.uk/en-GB/05_html_01/02/story-changes.png" alt="screenshot" /></p>
+<p>You can alter the colours used in the webpage, and you can also use fonts like <span style="font-family: Arial;">Arial</span>, <span style="font-family: Comic Sans MS;">Comic Sans MS</span>, <span style="font-family: Impact;">Impact</span> and <span style="font-family: Tahoma;">Tahoma</span>.</p>
+<p>If you need more help, you can use the ‘Happy Birthday’ project to help you.</p>
+</section>
+<section id="save-your-project" class="level2 save">
+<h2>Save Your Project</h2>
 </section>
 </section>
-<section id="step-3-making-a-birthday-card" class="level1 activity">
-<h1>Step 3: Making a birthday card</h1>
-<p>Let’s use what you’ve learnt about HTML and CSS to make your own custom birthday card.</p>
+<section id="step-3-telling-your-story" class="level1 activity">
+<h1>Step 3: Telling your story</h1>
+<p>Let’s add a second part to your story.</p>
 <section id="activity-checklist-2" class="level2 check">
 <h2>Activity Checklist</h2>
 <ul>
-<li><a href="http://web.treadsoft.ly/nux/edit?html,output" target="_blank">Click here to open a starter webpage.</a></li>
-</ul>
-<p>Don’t worry if you don’t understand all of the code. This birthday card looks pretty boring, so you’re going to make some changes to this HTML and CSS.</p>
-<ul>
-<li><p>Hover over the webpage (on the right side), and you should see the card open to reveal the inside.</p>
-<p><img src="http://projects.codeclub.org.uk/en-GB/05_html_01/01/birthday-hover.png" alt="screenshot" /></p></li>
-<li><p>Just like in the earlier example, you can edit any of the text in the HTML to customise the card.</p>
-<p><img src="http://projects.codeclub.org.uk/en-GB/05_html_01/01/birthday-card-html.png" alt="screenshot" /></p></li>
-<li><p>Can you find the HTML for the robot image? Try changing the word <code>robot</code> to <code>sun</code>, and you’ll see the image change!</p>
-<p><img src="http://projects.codeclub.org.uk/en-GB/05_html_01/01/birthday-card-sun.png" alt="screenshot" /></p>
-<p>You can use any of the words <code>boy</code>, <code>diamond</code>, <code>dinosaur</code>, <code>flowers</code>, <code>girl</code>, <code>rainbow</code>, <code>robot</code>, <code>spaceship</code>, <code>sun</code>, <code>tea</code>, or <code>trophy</code>.</p></li>
-<li><p>You can also edit the CSS of the birthday card. For example, go to line 4 of the code and you’ll see all of the CSS for the <code>outside</code> of the card. Change the <code>background</code> to <code>lightgreen</code>.</p>
-<p><img src="http://projects.codeclub.org.uk/en-GB/05_html_01/01/birthday-card-outside.png" alt="screenshot" /></p></li>
-<li><p>You can also change the size of an image. Go to line 29 of the code, and change the <code>width</code> and <code>height</code> of the outside image to <code>200px</code> (<code>px</code> stands for pixels).</p>
-<p><img src="http://projects.codeclub.org.uk/en-GB/05_html_01/01/birthday-card-size.png" alt="screenshot" /></p></li>
-<li><p>The font can be changed too. Go to line 24 and change the <code>font-family</code> to <code>Comic Sans MS</code> and the <code>font-size</code> to <code>16pt</code>.</p>
-<p><img src="http://projects.codeclub.org.uk/en-GB/05_html_01/01/birthday-card-font.png" alt="screenshot" /></p>
-<p>You can use other fonts like <span style="font-family: Arial;">arial</span>, <span style="font-family: impact;">Impact</span> and <span style="font-family: tahoma;">Tahoma</span>.</p></li>
+<li><p>Go to line 50 of the code, and add in another set of <code>&lt;div&gt;</code> and <code>&lt;/div&gt;</code> start and end tags. This will create a new box for the next part of your story.</p>
+<p><img src="story-div.png" alt="screenshot" /></p></li>
+<li><p>Add a paragraph of text inside your new <code>&lt;div&gt;</code> tag.</p>
+<p><img src="story-paragraph.png" alt="screenshot" /></p></li>
+<li><p>Finally, you can add an image to your new box, by adding this code inside your <code>&lt;div&gt;</code> tag:</p>
+<pre><code>&lt;img src=&quot;&quot;&gt;</code></pre>
+<p>Notice that <code>&lt;img&gt;</code> tags are a bit different to other tags, as they don’t have an end tag.</p></li>
+<li><p>For HTML images, you need to add the <strong>source</strong> of the image, inside the speech marks. Let’s find an image to add to your story.</p>
+<p>Go to <a href="http://jumpto.cc/cc-web-images" target="_blank">jumpto.cc/cc-web-images</a>, and find an image that you want to include in your story.</p></li>
+<li><p>Right-click the image, and click ‘Copy image URL’. The URL is the address of the image.</p>
+<p><img src="http://projects.codeclub.org.uk/en-GB/05_html_01/02/story-url.png" alt="screenshot" /></p></li>
+<li><p>Paste the URL between the speech marks in your <code>&lt;img&gt;</code> tag. You should see your image appear!</p>
+<p><img src="story-image.png" alt="screenshot" /></p></li>
+<li><p><strong>If you have a Trinket account</strong>, you can also upload your own images to your webpage! To do this, click the image icon at the top of your trinket and then click ‘upload’.</p>
+<p><img src="http://projects.codeclub.org.uk/en-GB/05_html_01/02/story-upload.png" alt="screenshot" /></p></li>
+<li><p>Find your image on your computer, and drag it into your trinket.</p>
+<p><img src="http://projects.codeclub.org.uk/en-GB/05_html_01/02/story-drag.png" alt="screenshot" /></p></li>
+<li><p>You can then just add the name of your new image between the speech marks in your <code>&lt;img&gt;</code> tag, like this:</p>
+<pre><code>&lt;img src=&quot;buildings.png&quot;&gt;</code></pre></li>
 </ul>
 </section>
-<section id="save-your-project-4" class="level2 save">
+<section id="save-your-project-1" class="level2 save">
 <h2>Save Your Project</h2>
 </section>
-<section id="challenge-create-a-personalised-card" class="level2 challenge">
-<h2>Challenge: Create a personalised card</h2>
-<p>Use everything you’ve learnt about HTML and CSS to finish making a personalised card. It doesn’t even have to be a birthday card, it could be for any occasion!</p>
-<p>Here’s an example:</p>
-<p><img src="http://projects.codeclub.org.uk/en-GB/05_html_01/01/birthday-final.png" alt="screenshot" /></p>
+<section id="challenge-keep-going" class="level2 challenge">
+<h2>Challenge: Keep going!</h2>
+<p>Use what you’ve learnt in this project to finish telling your story! Here’s an example:</p>
+<p><img src="http://projects.codeclub.org.uk/en-GB/05_html_01/02/story-final.png" alt="screenshot" /></p>
 </section>
-<section id="save-your-project-5" class="level2 save">
+<section id="save-your-project-2" class="level2 save">
 <h2>Save Your Project</h2>
-<p>Now that you’ve finished your card, you can share or email it to someone.</p>
 </section>
 </section>
     </main>
@@ -113,24 +127,6 @@
       <p>These projects are for use in Code Clubs within the UK. For clubs outside the UK, please visit <a href="http://projects.codeclubworld.org/">projects.codeclubworld.org</a>. Our curriculum is developed in the open on GitHub (<a href="http://github.com/CodeClub/">github.com/CodeClub</a>), and we encourage contributions from our community - come and join us!</p>
       <p>&copy; 2015 Code Club. This content is for non-commercial use only and we reserve the right at any time to withdraw permission for use. Use of Code Club’s trade marks (including but not limited to its name and logo) requires prior written consent. Please read our <a href="https://www.codeclub.org.uk/terms-and-conditions">terms and conditions</a> before volunteering or hosting a Code Club.</p>
     </aside>
-
-    <div id="legend">
-        <div>
-            <img src="http://projects.codeclub.org.uk/img/check.png" alt="Activity Checklist" />
-            <div class="caption"><span class="check_text">Activity Checklist</span></div>
-            <div class="description">Follow these <span class="check_text upper">instructions</span> one by one</div>
-        </div>
-        <div>
-          <img src="http://projects.codeclub.org.uk/img/flag.png" alt="Test your Project" />
-          <div class="caption"><span class="flag_text">Test your Project</span></div>
-          <div class="description">Click on the green flag to <span class="flag_text upper">test</span> your code</div>
-        </div>
-        <div>
-          <img src="http://projects.codeclub.org.uk/img/save.png" alt="Save your Project" />
-          <div class="caption"><span class="save_text">Save your Project</span></div>
-          <div class="description">Make sure to <span class="save_text upper">save</span> your work now</div>
-        </div>
-    </div>
 
     <script type="text/javascript" src="http://projects.codeclub.org.uk/js/lesson.js"></script>
     <!-- Google Analytics -->
