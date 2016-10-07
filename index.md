@@ -22,7 +22,7 @@ Freelance software developer. Recovering computational neuroscience researcher.
 
 #### Data Science
 
- * I was an ambassador at a recent [DataKind UK](http://datakind.org.uk) hack (using data to help charities work better). Here’s [a blog about the tool I helped build](http://www.datakind.org/projects/communicating-about-child-poverty/) for the [North East Child Poverty Commission](http://www.nechildpoverty.org.uk/).
+ * I was an ambassador at a recent [DataKind UK](http://datakind.org.uk) hack (using data to help charities work better). Here’s [a blog about the tool I helped build](http://www.datakind.org/projects/delving-into-child-poverty-data) for the [North East Child Poverty Commission](http://www.nechildpoverty.org.uk/).
 
 #### Education
 
