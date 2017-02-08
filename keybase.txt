@@ -4,7 +4,7 @@ https://keybase.io/andylolz
 
 I hereby claim:
 
-  * I am an admin of http://treadsoft.ly
+  * I am an admin of https://treadsoft.ly
   * I am andylolz (https://keybase.io/andylolz) on keybase.
   * I have a public key with fingerprint 8B21 BF74 E3E1 21AB 4D5D  A33B 43A3 BB6E 4CB8 8509
 
@@ -13,6 +13,7 @@ To do so, I am signing this object:
 {
     "body": {
         "key": {
+            "eldest_kid": "010190509a347821efea34c479af71e4e33de10b3b31b5b1946331dd175a633a913e0a",
             "fingerprint": "8b21bf74e3e121ab4d5da33b43a3bb6e4cb88509",
             "host": "keybase.io",
             "key_id": "43a3bb6e4cb88509",
@@ -22,41 +23,41 @@ To do so, I am signing this object:
         },
         "service": {
             "hostname": "treadsoft.ly",
-            "protocol": "http:"
+            "protocol": "https:"
         },
         "type": "web_service_binding",
         "version": 1
     },
-    "ctime": 1428593638,
+    "ctime": 1486579839,
     "expire_in": 157680000,
-    "prev": "72210fb6e9fa906e1ae148b6ea2c79a793c647ad9ad5bb06ebbe1ad0b7864898",
-    "seqno": 2,
+    "prev": "b69aed73d37cdffbb7405e975d355d8a60eb7cef64548a44a7918f2f32a2e0e1",
+    "seqno": 11,
     "tag": "signature"
 }
 
 which yields the signature:
 
 -----BEGIN PGP MESSAGE-----
-Version: Keybase OpenPGP v2.0.8
+Version: Keybase OpenPGP v2.0.62
 Comment: https://keybase.io/crypto
 
-yMIcAnicbZJrSFRBFMd3e7Ir0lPIHlQ3EIo179y5j7lbmL2gB70srTDdZnbm6kW9
-d929bj4QiYpeUploL/uSRUWYpEVEBWkJgQUhSA8Sy0CzKKiQFL80V+pb82XmnPn9
-/2fOYZ4lTvT4vT3OiVH9y8Eub1d7RqknK+XSQKVAbFouBCuFQja+GaaVz6KRqGk5
-QlBARALE0GQGGZAAJjJVKIaQyBBDQlQmhwlCiqgLAaHAjrkKbkNwjC03bZ7jQcik
-PPsfvnD8QgQi0EWewVDWkASYwfgpLGs6NjTAeGFIGRAJJBAQhQBdViEElAJNwfyE
-dQCZiLld6bhdWANIQ0gkhk51nesxUgwsyxRQjFVRdMEYi1q4mHEaW7S8yC6qEKoC
-As/GzTBzR+B28pdwogzTmG04y4vKuTYStR07bBfxmwLHiQRdoVMecckDjIT+eoSI
-aVE+Ri6Is2jMtC0hCDgZdkzXFMgSUnSoQhQQWFnEjLKQ6RKKpiKRL7cMi3NLTZKA
-aPCp6QbWRZUBzICMeIylMJ+PpsOwKmuY6pgqhHCAEM5QkWhIlZGOBLerEssWghJ/
-Js7nljEz38JOaZQJVR1P9k3yeP2eKZMnuB/B4/dN//c9mq2po96s4o+tP8RQfV1G
-d0H9zV51g+R7lXI9sy65fW/Jt9pDPcvaWrrqsxf2dz9s/HT85S9vb/qitfcPqyMt
-sxrbqmtr667sSN3Q2HD0BVqRtH9rDbs2bcvufcMbR57PeH/7640P8M2ORUJ6jhO6
-O/Z4afI6q+aesgrHdyegXfg1PCw/eps3WuPZHGiePzi7Yufw9xsre4/8TJNnnjdT
-O32X1zf9nrt4zsaTRvzm6oa8ZQuG2rafm9q093TzwK3hTf2ZF5sTg4mB1uKOC5nz
-7m/zt56liUPV2LxctvPpnpzcrOySNcd8fUlX0/JPDZxZ8iD3TlNte+egkeD/3OdU
-a2PvUu9MPJPX8ge47Sh8
-=FQM/
+yMIlAnicrVJbSBVBGD7eywq8VAYV1UrRgxx3dvZq9xfDSqkouiAdZ3ZmPZun3dPu
+evIoZvciMozAxKIgCqIwCsSH6sHCLnQIijIjJcWSrIciErEMalbsrcfmZf755/u+
+//t//q4ZKYHMpG7v5A/t88FEUuJ+S3Vg+/lwQx2HbRLniuq4Kjpx0QihrheqMglX
+xPGABxov8RqCoqIKgBqURbqoaMhQABUphIQCHkMMAZYw0EQZQkAIUCTEIqQBSHnE
+FXCGaVVSJ+qYlsdkVSwAbCiMToEAEBaJRBCEWIQIYixTUceqyqoyYth2fQYzh5FL
+g6bNcuwRmrD3D/x/9l09IacrQFVUlceGRjSN8ZEqGUgUCSAIyTzvA13qWGgPZWhk
+kXjEjtRy9QUcy8ZMnfqD9TuZRHgORcS1DS8YiTNu1LE9W7cj7CfseVG3yGd68agP
+3UdxaFIkhE2LsDkyRow6rmlbXBFgSN0zfVUgqrKkaCrUCjhaEzUdGjJ9hKTIKs+O
+X4fGmCSWNUSJAglUdGIYGCsiL1FNkQiUJKKyhihWdGrIoiSqrEukaEA1BAMKSKA8
+BZzf1l7LZtqA+USVTNM1Ky3kVTuUq3/QWZ4aSMoMpKcl+wsWyJya9XftYvcyfpeO
+Z/8MDjU/rLjwVLz2bSe3sQe8kMtH+sZmJy3/mtYmtFeffjI/mNrUVzLQ/MvZtGTN
+scSs1uRwr3l912BNxzR9kK/IntNcm7JbH8weqc141Tb6LreYu8m1HxsaCzW9r8sQ
+Vi/rH1B64lnFZOxD8O3n9sbh/ukXu6taRvXjz0YCezbIVxZdfZSbXzV32zoj7VJh
+WYd1O35jhbtq3+svfWf155e3rlwr5b3Zunm0bPv698mtJeeiJ6EVbjy89Hv3vJZV
+O4bP5L28m1kw3tVWc2dL54friZFzp9IXSFNyjpR+fHywUCiOzcwK4U+pqQsP7D+U
+c+tEb6xh8fTKo2dvqLHC+vzVfwCwpj+m
+=IkpP
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
